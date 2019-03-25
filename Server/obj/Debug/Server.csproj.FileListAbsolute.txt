@@ -1,0 +1,19 @@
+c:\users\kyech\documents\visual studio 2015\Projects\Server\Server\bin\Debug\Server.exe.config
+C:\Users\kyech\documents\visual studio 2015\Projects\Server\Server\bin\Debug\Server.exe
+C:\Users\kyech\documents\visual studio 2015\Projects\Server\Server\bin\Debug\Server.pdb
+C:\Users\kyech\documents\visual studio 2015\Projects\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\kyech\documents\visual studio 2015\Projects\Server\Server\obj\Debug\Server.exe
+C:\Users\kyech\documents\visual studio 2015\Projects\Server\Server\obj\Debug\Server.pdb
+C:\Users\kyech\OneDrive\문서\Visual Studio 2015\Projects\Server\Server\bin\Debug\Server.exe.config
+C:\Users\kyech\OneDrive\문서\Visual Studio 2015\Projects\Server\Server\obj\Debug\Server.exe
+C:\Users\kyech\OneDrive\문서\Visual Studio 2015\Projects\Server\Server\obj\Debug\Server.pdb
+C:\Users\kyech\OneDrive\문서\Visual Studio 2015\Projects\Server\Server\bin\Debug\Server.exe
+C:\Users\kyech\OneDrive\문서\Visual Studio 2015\Projects\Server\Server\bin\Debug\Server.pdb
+C:\Users\kyech\OneDrive\문서\Visual Studio 2015\Projects\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\kyechan99\Desktop\Game-Server-master\Server\obj\Debug\Server.exe
+C:\Users\kyechan99\Desktop\Game-Server-master\Server\obj\Debug\Server.pdb
+C:\Users\kyechan99\Desktop\Game-Server-master\Server\bin\Debug\Server.exe.config
+C:\Users\kyechan99\Desktop\Game-Server-master\Server\bin\Debug\Server.exe
+C:\Users\kyechan99\Desktop\Game-Server-master\Server\bin\Debug\Server.pdb
+C:\Users\kyechan99\Desktop\Game-Server-master\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\kyechan99\Desktop\Game-Server-master\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
