@@ -118,8 +118,17 @@ namespace Server
             {
                 for (int j = 0; j < Server.v_rooms.Count; j++)
                     if (Server.v_rooms[j].nowUser < Server.v_rooms[j].limitUser)
-                        SendMsg(string.Format("FOUND_ROOM:{0}:{1}:{2}:{3}:{4}",
-                        Server.v_rooms[j].roomIdx, Server.v_rooms[j].roomName, Server.v_rooms[j].roomPW, Server.v_rooms[j].nowUser, Server.v_rooms[j].limitUser));
+                        SendMsg(string.Format("FOUND_ROOM:{0}:{1}:{2}:{3}:{4}", Server.v_rooms[j].roomIdx, Server.v_rooms[j].roomName, Server.v_rooms[j].roomPW, Server.v_rooms[j].nowUser, Server.v_rooms[j].limitUser));
+            }
+            else if (txt[0].Equals("FAST_ROOM"))
+            {
+                for (int j = 0; j < Server.v_rooms.Count; j++)
+                    if (Server.v_rooms[j].nowUser < Server.v_rooms[j].limitUser && Server.v_rooms[j].roomPW.Equals(""))
+                    {
+                        IntoRoom(Server.v_rooms[j].roomIdx.ToString());
+                        break;
+                    }
+                
             }
             else if (txt[0].Equals("ROOM_EXIT"))
             {
@@ -175,6 +184,18 @@ namespace Server
             else if (txt[0].Equals("INTO_ROOM"))
             {
                 IntoRoom(txt[1]);
+            }
+            else if (txt[0].Equals("GAME_START"))
+            {
+                Console.WriteLine("GAME START : " + roomIdx);
+                for (int i = 0; i < Server.v_user.Count; i++)
+                {
+                    if (Server.v_user[i].roomIdx.Equals(roomIdx))
+                    {
+                        Server.v_user[i].SendMsg("GAME_START");
+                        Console.WriteLine("SEND GAME START : " + Server.v_user[i].nickName);
+                    }
+                }
             }
             else if (txt[0].Equals("CREATE_ROOM"))
             {
